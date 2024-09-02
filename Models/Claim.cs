@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using MonthlyClaim.Data;
+using System.ComponentModel.DataAnnotations;
 
 namespace MonthlyClaim.Models
 {
