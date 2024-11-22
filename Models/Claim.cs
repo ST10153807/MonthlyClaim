@@ -5,6 +5,8 @@ namespace MonthlyClaim.Models
 {
     public class Claim
     {
+
+        //Claims submission
         [Key]
         public int Id { get; set; }
 
@@ -13,6 +15,6 @@ namespace MonthlyClaim.Models
         public String Description { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
-        public Department Department { get; set; }
+        public double Rate { get; set; }
     }
 }
